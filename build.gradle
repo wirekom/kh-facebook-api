@@ -1,0 +1,21 @@
+group 'id.kawalharga'
+version '1.0'
+
+apply plugin: 'idea'
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile fileTree(dir: 'lib', include: ['*.jar'])
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    compile group: 'org.facebook4j', name: 'facebook4j-core', version: '2.4.4'
+    compile group: 'org.postgresql', name: 'postgresql', version: '9.4.1208.jre7'
+}

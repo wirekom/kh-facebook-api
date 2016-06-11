@@ -1,0 +1,414 @@
+2016-06-11 12:14:53 INFO  Service:61 - Connecting to database...
+2016-06-11 12:14:54 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:15:05 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:15:05 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:15:05 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:15:05 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:15:05 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - x-fb-trace-id: ESnJgNQzYDf
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:15:08 GMT
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - X-FB-Debug: wn0CpDaXzxNAwMxMuFhcaT08uC/a8KCht/+k/GVeqqbluw02SVErFHlhHXG+8DB4DEuTbGe+23Bn8rXf5q5xrA==
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:15:08 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:15:08 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591171137731282"}
+2016-06-11 12:15:14 INFO  Main:40 - 495631933951870_591171137731282
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591171137731282?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - x-fb-trace-id: Ewe52E0bylr
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:15:21 GMT
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - ETag: "ace18694285a5f165d3ad7d78200ae0c1d690dfd"
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Content-Length: 172
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - X-FB-Debug: 7tWhuoahaCdgZl+lCJFUCvE+XRiZMsXu9SbTnXMRTp9vkkNookcEp/T7Hlw73czw51LYKfZpxIQ0hL8x7gYtZA==
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:15:21 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:15:21 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:15:08+0000","id":"495631933951870_591171137731282","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:15:22 INFO  Service:61 - Connecting to database...
+2016-06-11 12:15:22 DEBUG Main:73 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES (?, ?, ?)
+2016-06-11 12:19:27 INFO  Service:61 - Connecting to database...
+2016-06-11 12:19:27 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:19:28 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:19:28 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:19:28 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:19:28 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:19:28 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - x-fb-trace-id: Bja3VoxE0VO
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:19:28 GMT
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - X-FB-Debug: /0G+VzY3B49Ny77YmYP8R2awxjNaJ9q+1eXD4xaBuWehxNAy3LE5tP3y9qvXLkA5mHw1eo9BQn6v/mvIG9JkNg==
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:19:29 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591172621064467"}
+2016-06-11 12:19:29 INFO  Main:40 - 495631933951870_591172621064467
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591172621064467?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - x-fb-trace-id: DGDMFriOPBN
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:19:29 GMT
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - ETag: "4a664bc5a79c481b7b6cb32047995db9eba0be89"
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Content-Length: 172
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - X-FB-Debug: ICUOhmcTLzEWRfGQ9BcRq7fT64jyeNVqiFT+aATvCJAR//o1Uv7wc703+fIDes1LKPSHZSPQo4oZKj5/iZtZ5w==
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:19:29 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:19:29 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:19:28+0000","id":"495631933951870_591172621064467","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:19:29 INFO  Service:61 - Connecting to database...
+2016-06-11 12:20:34 DEBUG Main:75 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES (?, ?, ?)
+2016-06-11 12:21:03 INFO  Service:61 - Connecting to database...
+2016-06-11 12:21:03 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:21:03 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:21:03 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:21:03 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:21:03 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:21:03 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - x-fb-trace-id: A5Xxyk6AzGU
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:21:04 GMT
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - X-FB-Debug: 3UsFFMlwjyucf4rlMsP7u/c70Qeu8mreVR+X9H4U6h6ZLpOL1JDfRCProN6Gu3dATm7x18gc1Pm+gMZLqByfyQ==
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:21:04 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591172997731096"}
+2016-06-11 12:21:04 INFO  Main:40 - 495631933951870_591172997731096
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591172997731096?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:21:04 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - x-fb-trace-id: AqAR8/NPagJ
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:21:04 GMT
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - ETag: "dbfa2aacf6c8db6e3a0bff592f22f736ec428e58"
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Content-Length: 172
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - X-FB-Debug: HvVWpmjNV4f/5h8RpFxobeL31DTbjonublLDG3m9CpppB6t78YjrAbkYRptxFi+KcHydOpLZFWdbT/zGq8iTrQ==
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:21:05 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:21:05 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:21:04+0000","id":"495631933951870_591172997731096","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:21:05 INFO  Service:61 - Connecting to database...
+2016-06-11 12:21:09 DEBUG Main:75 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES (495631933951870_591172997731096, 97720, null)
+2016-06-11 12:32:52 INFO  Service:61 - Connecting to database...
+2016-06-11 12:32:52 INFO  Main:67 - Database creation: false
+2016-06-11 12:32:52 INFO  Service:61 - Connecting to database...
+2016-06-11 12:32:52 INFO  Main:67 - Database creation: false
+2016-06-11 12:32:52 INFO  Service:61 - Connecting to database...
+2016-06-11 12:32:52 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:32:53 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:32:53 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:32:53 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:32:53 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:32:53 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - x-fb-trace-id: CfgM9ScTrQ4
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:32:54 GMT
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - X-FB-Debug: Euzmupa13LWMPVkhvGrjVYh47DPNnbuLZ43+Jiv/0bUyyb3eYKBcsnO3hsLlqEeKphLcalgigRuFwPZ89pL3aQ==
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:32:54 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591174837730912"}
+2016-06-11 12:32:54 INFO  Main:42 - 495631933951870_591174837730912
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591174837730912?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - x-fb-trace-id: E9oIZsRwnlg
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:32:54 GMT
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - ETag: "69631b16a407a1699f476f712b4d9daf89185504"
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Content-Length: 173
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - X-FB-Debug: sqAwfCHsgZZM+6u063K9Nmt8L1kA1nVzu9hNx5u+hGS01j69ENPTO3LasEXK25iQF63gcFmIeaeJZGfp5gwteA==
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:32:54 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:32:54 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:32:54+0000","id":"495631933951870_591174837730912","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:32:54 INFO  Service:61 - Connecting to database...
+2016-06-11 12:33:00 DEBUG Main:78 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591174837730912', 'Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)', '2016-6-11 +7:0:0')
+2016-06-11 12:35:17 INFO  Service:61 - Connecting to database...
+2016-06-11 12:35:17 INFO  Main:67 - Database creation: false
+2016-06-11 12:35:17 INFO  Service:61 - Connecting to database...
+2016-06-11 12:35:17 INFO  Main:67 - Database creation: false
+2016-06-11 12:35:17 INFO  Service:61 - Connecting to database...
+2016-06-11 12:35:17 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:35:17 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:35:17 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:35:17 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:35:17 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:35:17 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - x-fb-trace-id: CmDmHCBud2h
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:35:18 GMT
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - X-FB-Debug: q+tS+CxPRZhgYDt1RwhuRg5Ds7lNbVv9OPy4PYBQl+whRjl+X+g8izZA4dohLsCWJi/aD83Ji6Gy2t61jys8GA==
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:35:18 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591175224397540"}
+2016-06-11 12:35:18 INFO  Main:42 - 495631933951870_591175224397540
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591175224397540?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:35:18 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - x-fb-trace-id: Gtn7rOxP+A0
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:35:19 GMT
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - ETag: "0a63e79025418da84d931243d2a21c109699cbd8"
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Content-Length: 172
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - X-FB-Debug: S5rJ/+R+s8uY0hN5bl3pV6siCA15shWDPmCu4VEd8S6++EuSU286JOMhE1Nhl3n++PXULevuQfdw+bQU3frDDQ==
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:35:19 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:35:19 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:35:18+0000","id":"495631933951870_591175224397540","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:35:19 INFO  Service:61 - Connecting to database...
+2016-06-11 12:35:39 DEBUG Main:78 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591175224397540', 'Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)', '2016-6-11 +7:0:0')
+2016-06-11 12:38:07 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:07 INFO  Main:67 - Database creation: false
+2016-06-11 12:38:07 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:07 INFO  Main:67 - Database creation: false
+2016-06-11 12:38:07 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:07 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:38:07 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:38:07 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:38:07 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:38:07 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:38:07 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - x-fb-trace-id: CqA3ipfdP+D
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:38:08 GMT
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - X-FB-Debug: rnNxg/4tuk7U9wJ7F2DF/L0T8zZ3Jm8AkomzYaQJzpPzseQyUaeM8Vav8zBFsQCNFHA/tDMEoXQ+qKRcxiAy1g==
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:38:08 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591175644397498"}
+2016-06-11 12:38:08 INFO  Main:42 - 495631933951870_591175644397498
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591175644397498?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - x-fb-trace-id: Hpt/pHxUfFK
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:38:08 GMT
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - ETag: "dbbb0fad18d0f3fa3e61b41563bfd7709124c1e4"
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Content-Length: 172
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - X-FB-Debug: cNVY58KDpIZcS4z7z6vXgLLgPMcEZP0rZxKzVthsLOpardnAyXBHtrhwRQ6aHfctTRMpgvWC15x04wO1or9XkA==
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:38:08 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:38:08 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:38:08+0000","id":"495631933951870_591175644397498","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:38:08 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:56 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:57 INFO  Main:67 - Database creation: false
+2016-06-11 12:38:57 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:57 INFO  Main:67 - Database creation: false
+2016-06-11 12:38:57 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:57 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)
+2016-06-11 12:38:57 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:38:57 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:38:57 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:38:57 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:38:57 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - x-fb-trace-id: Glc6BKIH9DN
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:38:58 GMT
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - X-FB-Debug: /qkGjjQOyDDxiV0X3cZXAJTw3f6UNe8Y5IxkH8K2HrnWWhQsPADMB/FOp+a+J/27y/d3oK+Sr3oK4B18NUr7Hw==
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:38:58 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591175784397484"}
+2016-06-11 12:38:58 INFO  Main:42 - 495631933951870_591175784397484
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591175784397484?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - x-fb-trace-id: CHSbAF2Cq+P
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:38:58 GMT
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - ETag: "a5908323c1fb236e5c31c89300ac391db3eb879e"
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Content-Length: 172
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - X-FB-Debug: XXENfD9pgb38iOTB6dAS1BrUbQn7KIsEyjfDeMaqWv00DWKi/Rbhv/ZO5uLHbYQPFw2UCpAi8SpGvnKCnYlxPg==
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:38:58 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:38:58 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:38:58+0000","id":"495631933951870_591175784397484","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)"}
+2016-06-11 12:38:58 INFO  Service:61 - Connecting to database...
+2016-06-11 12:38:58 DEBUG Main:79 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591175784397484', 97720, 'Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596)', '2016-6-11 +7:0:0')
+2016-06-11 12:57:31 INFO  Service:61 - Connecting to database...
+2016-06-11 12:57:31 INFO  Main:78 - Database creation: false
+2016-06-11 12:57:31 INFO  Service:61 - Connecting to database...
+2016-06-11 12:57:31 INFO  Main:78 - Database creation: false
+2016-06-11 12:57:31 INFO  Service:61 - Connecting to database...
+2016-06-11 12:57:32 DEBUG Service:332 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 12:57:32 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:57:32 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 12:57:32 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:57:32 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:57:32 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29%20dilaporkan%20oleh%20admin%20pada%202016-06-03&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - x-fb-trace-id: BK2ajQcsgnn
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:57:33 GMT
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - X-FB-Debug: gFY3KYXNWp4bmTFgY0BbA2/QpVv/VwXD5IxKMcY0RCI4Ex7DrGCPka1Bu90BJieANwE2f5/9bHfl38rVmaXbBw==
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:57:33 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591182794396783"}
+2016-06-11 12:57:33 INFO  Main:53 - 495631933951870_591182794396783
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591182794396783?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - x-fb-trace-id: FVBCDduXJMY
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 05:57:33 GMT
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - ETag: "4056231c14cbfe9148466feb86a88dbf73c27762"
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Content-Length: 200
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - X-FB-Debug: Wi5rjYPcbpWCBM8fQgEnWBMG7MAt+XczwUXtkzswWylPicEhu9kH5Udduluepu6hvDTOEQAvSKCbiARvvujosQ==
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 12:57:33 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 12:57:33 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T05:57:33+0000","id":"495631933951870_591182794396783","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03"}
+2016-06-11 12:57:33 INFO  Service:61 - Connecting to database...
+2016-06-11 12:57:33 DEBUG Main:90 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591182794396783', 97720, 'Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03', '2016-6-11 +7:0:0')
+2016-06-11 12:57:33 INFO  Service:61 - Connecting to database...
+2016-06-11 12:57:33 INFO  Main:78 - Database creation: false
+2016-06-11 12:57:33 INFO  Service:61 - Connecting to database...
+2016-06-11 12:57:33 DEBUG Main:102 - org.postgresql.jdbc.PgStatement@23fe1d71
+2016-06-11 12:57:33 INFO  Main:106 - Last post id: 495631933951870_591182794396783
+2016-06-11 13:22:37 INFO  Service:61 - Connecting to database...
+2016-06-11 13:22:37 INFO  Main:91 - Database creation: false
+2016-06-11 13:22:37 INFO  Service:61 - Connecting to database...
+2016-06-11 13:22:37 INFO  Main:91 - Database creation: false
+2016-06-11 13:22:37 INFO  Service:61 - Connecting to database...
+2016-06-11 13:22:37 DEBUG Main:115 - org.postgresql.jdbc.PgStatement@2c9f9fb0
+2016-06-11 13:22:37 INFO  Service:61 - Connecting to database...
+2016-06-11 13:25:30 INFO  Service:61 - Connecting to database...
+2016-06-11 13:25:30 INFO  Main:91 - Database creation: false
+2016-06-11 13:25:30 INFO  Service:61 - Connecting to database...
+2016-06-11 13:25:30 INFO  Main:91 - Database creation: false
+2016-06-11 13:25:30 INFO  Service:61 - Connecting to database...
+2016-06-11 13:25:30 DEBUG Main:115 - org.postgresql.jdbc.PgStatement@735b478
+2016-06-11 13:25:30 INFO  Service:61 - Connecting to database...

@@ -1,0 +1,5 @@
+dataSource.dbCreate = update
+dataSource.driverClassName = org.postgresql.Driver
+dataSource.url = jdbc:postgresql://localhost:5432/pantaudb?useOldAliasMetadataBehavior=true
+dataSource.username = user
+dataSource.password = pass
