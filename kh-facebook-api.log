@@ -412,3 +412,612 @@
 2016-06-11 13:25:30 INFO  Service:61 - Connecting to database...
 2016-06-11 13:25:30 DEBUG Main:115 - org.postgresql.jdbc.PgStatement@735b478
 2016-06-11 13:25:30 INFO  Service:61 - Connecting to database...
+2016-06-11 16:15:01 INFO  Service:61 - Connecting to database...
+2016-06-11 16:15:01 INFO  Main:149 - Database creation: false
+2016-06-11 16:15:01 INFO  Service:61 - Connecting to database...
+2016-06-11 16:15:01 DEBUG Main:104 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:15:01 INFO  Service:61 - Connecting to database...
+2016-06-11 16:15:01 INFO  Main:149 - Database creation: false
+2016-06-11 16:15:01 INFO  Service:61 - Connecting to database...
+2016-06-11 16:15:01 INFO  Main:149 - Database creation: false
+2016-06-11 16:15:01 INFO  Service:61 - Connecting to database...
+2016-06-11 16:16:51 INFO  Service:61 - Connecting to database...
+2016-06-11 16:16:52 INFO  Main:149 - Database creation: false
+2016-06-11 16:16:52 INFO  Service:61 - Connecting to database...
+2016-06-11 16:16:52 DEBUG Main:104 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:16:52 INFO  Service:61 - Connecting to database...
+2016-06-11 16:16:52 INFO  Main:149 - Database creation: false
+2016-06-11 16:16:52 INFO  Service:61 - Connecting to database...
+2016-06-11 16:16:52 INFO  Main:149 - Database creation: false
+2016-06-11 16:16:52 INFO  Service:61 - Connecting to database...
+2016-06-11 16:16:52 ERROR MainTest:67 - Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at id.kawalharga.facebook.Main.getInputToBePosted(Main.java:43)
+	at id.kawalharga.facebook.MainTest.getInputToBePostedTest(MainTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+2016-06-11 16:21:38 INFO  Service:61 - Connecting to database...
+2016-06-11 16:21:38 INFO  Main:149 - Database creation: false
+2016-06-11 16:21:38 INFO  Service:61 - Connecting to database...
+2016-06-11 16:21:38 DEBUG Main:104 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:21:38 DEBUG Main:104 - retrieved: Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:21:38 DEBUG Main:104 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:21:38 INFO  Service:61 - Connecting to database...
+2016-06-11 16:21:38 INFO  Main:149 - Database creation: false
+2016-06-11 16:21:38 INFO  Service:61 - Connecting to database...
+2016-06-11 16:21:38 INFO  Main:149 - Database creation: false
+2016-06-11 16:21:38 INFO  Service:61 - Connecting to database...
+2016-06-11 16:21:38 ERROR MainTest:67 - Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at id.kawalharga.facebook.Main.getInputToBePosted(Main.java:43)
+	at id.kawalharga.facebook.MainTest.getInputToBePostedTest(MainTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+2016-06-11 16:25:06 INFO  Service:61 - Connecting to database...
+2016-06-11 16:25:06 INFO  Main:152 - Database creation: false
+2016-06-11 16:25:06 INFO  Service:61 - Connecting to database...
+2016-06-11 16:25:06 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:25:06 DEBUG Main:107 - retrieved: Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:25:06 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:25:06 INFO  Service:61 - Connecting to database...
+2016-06-11 16:25:06 INFO  Main:152 - Database creation: false
+2016-06-11 16:25:06 INFO  Service:61 - Connecting to database...
+2016-06-11 16:25:06 INFO  Main:152 - Database creation: false
+2016-06-11 16:25:06 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:40 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:40 INFO  Main:152 - Database creation: false
+2016-06-11 16:26:40 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:40 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:26:40 DEBUG Main:107 - retrieved: Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:26:40 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:26:40 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:40 INFO  Main:152 - Database creation: false
+2016-06-11 16:26:40 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:40 INFO  Main:152 - Database creation: false
+2016-06-11 16:26:40 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:40 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:26:40 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 16:26:40 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 16:26:40 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 16:26:40 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 16:26:40 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp%2015000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29%20dilaporkan%20oleh%20admin%20pada%202016-06-03&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - x-fb-trace-id: CVPUgkOLg7d
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 09:26:41 GMT
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - X-FB-Debug: eUwwKgoL92IqWGdf5AB1wGtS3kBFB31+vHH4CWKt/yRiVsmjCYh6Y0Vddsl8e/LzfHle0wbdicWIYOHO8fTx1A==
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 16:26:41 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591233881058341"}
+2016-06-11 16:26:41 INFO  Main:127 - 495631933951870_591233881058341
+2016-06-11 16:26:41 INFO  MainTest:81 - Posted to page: 495631933951870_591233881058341
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591233881058341?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 16:26:41 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - x-fb-trace-id: F/KWPtCxbxI
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 09:26:42 GMT
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - ETag: "5529014fdbfc40b56dc1c5731ea12bd6ed4ecc26"
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Content-Length: 197
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - X-FB-Debug: XEyIHbIbdpWNsS2Q0glpVyzAShmCa8l915So19DamrjVRCa59UoJ2j1suZxIV779dGp0+J6Bz5QbCmg3mVIJMQ==
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 16:26:42 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 16:26:42 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T09:26:41+0000","id":"495631933951870_591233881058341","message":"Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03"}
+2016-06-11 16:26:42 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:42 DEBUG Main:164 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591233881058341', 97720, 'Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03', '2016-6-11 +7:0:0')
+2016-06-11 16:26:42 INFO  Service:61 - Connecting to database...
+2016-06-11 16:26:42 INFO  Main:152 - Database creation: false
+2016-06-11 16:26:42 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:23 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:23 INFO  Main:152 - Database creation: false
+2016-06-11 16:28:23 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:23 DEBUG Main:107 - retrieved: Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:28:23 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp 15000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:28:23 DEBUG Main:107 - retrieved: Bawang Merah Kering dijual seharga Rp 21000.00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:28:23 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:23 INFO  Main:152 - Database creation: false
+2016-06-11 16:28:23 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:23 INFO  Main:152 - Database creation: false
+2016-06-11 16:28:23 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:23 DEBUG Main:107 - retrieved: Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03
+2016-06-11 16:28:23 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 16:28:23 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 16:28:23 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 16:28:23 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 16:28:23 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.240738%2C106.872161&message=Bawang%20Merah%20Kering%20dijual%20seharga%20Rp%2020000.00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.240738%2C%20106.872161%29%20dilaporkan%20oleh%20admin%20pada%202016-06-03&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - x-fb-trace-id: BbGzeFFOijG
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 09:28:25 GMT
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - X-FB-Debug: q0u4sBrYOPQMEBim/RiVhSsPGt30O3HIahenPb/n50h1tnC2EOSgHdqDTLQiXwSnaFJJVexxW2Oj3iAygv+eSA==
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 16:28:25 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591234474391615"}
+2016-06-11 16:28:25 INFO  Main:127 - 495631933951870_591234474391615
+2016-06-11 16:28:25 INFO  MainTest:81 - Posted to page: 495631933951870_591234474391615
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591234474391615?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - x-fb-trace-id: C7eZAHCYq/z
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 09:28:25 GMT
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - ETag: "5404623db92004a48950e93870b469b9b4268747"
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Content-Length: 205
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - X-FB-Debug: tvHv09aptkKcTsyuSFgKWXv0M5SjOHjOf8b1saQw1VLgSxfmpUDZxBIqHDlv4nqZ2Xk1l3qiHkm/OCdUb36VJg==
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 16:28:25 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 16:28:25 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T09:28:25+0000","id":"495631933951870_591234474391615","message":"Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03"}
+2016-06-11 16:28:25 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:25 DEBUG Main:164 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591234474391615', 97725, 'Bawang Merah Kering dijual seharga Rp 20000.00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada 2016-06-03', '2016-6-11 +7:0:0')
+2016-06-11 16:28:25 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:25 INFO  Main:152 - Database creation: false
+2016-06-11 16:28:25 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:25 DEBUG Main:176 - org.postgresql.jdbc.PgStatement@23fe1d71
+2016-06-11 16:28:25 INFO  Main:180 - Last post id: 2016-06-11
+2016-06-11 16:28:25 INFO  Service:61 - Connecting to database...
+2016-06-11 16:28:25 INFO  Main:152 - Database creation: false
+2016-06-11 16:28:25 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:47 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:47 INFO  Main:152 - Database creation: false
+2016-06-11 17:15:47 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:47 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:15:47 DEBUG Main:107 - retrieved: Bawang Merah Kering dijual seharga Rp21.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:15:47 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:47 INFO  Main:152 - Database creation: false
+2016-06-11 17:15:47 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:47 INFO  Main:152 - Database creation: false
+2016-06-11 17:15:47 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:47 DEBUG Main:107 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:15:47 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:15:47 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 17:15:47 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:15:47 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:15:47 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Beras%20Medium%20dijual%20seharga%20Rp15.000%2C00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29%20dilaporkan%20oleh%20admin%20pada%20Jumat%2C%2003%20Jun%202016%2000%3A00&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - x-fb-trace-id: H14YZoeN6sJ
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:15:48 GMT
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - X-FB-Debug: Flz077m2Bet8p/01vZruKu7oo71/5z9DOvxVisevySRwWahiqinIzd95WJyd0UtdGFaYci3EGvjFpn3liFRm7g==
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:15:48 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591249197723476"}
+2016-06-11 17:15:48 INFO  Main:127 - 495631933951870_591249197723476
+2016-06-11 17:15:48 INFO  MainTest:81 - Posted to page: 495631933951870_591249197723476
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591249197723476?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - x-fb-trace-id: GOCag3fWUbr
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:15:48 GMT
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - ETag: "bf3879c48727d7d08b3c747836d53363f683d6f4"
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Content-Length: 211
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - X-FB-Debug: URYmpfzQ9H5SwT0xvDVyQ+LTC/xXeU6mixkGw5nfhTHiGdedEHCLBg6qRx6H8SBqnLr7d2vLpXTsCKbHkhhxvw==
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:15:48 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:15:48 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T10:15:47+0000","id":"495631933951870_591249197723476","message":"Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00"}
+2016-06-11 17:15:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:48 DEBUG Main:164 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591249197723476', 97726, 'Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00', '2016-6-11 +7:0:0')
+2016-06-11 17:15:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:48 INFO  Main:152 - Database creation: false
+2016-06-11 17:15:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:48 DEBUG Main:176 - org.postgresql.jdbc.PgStatement@5e86aba9
+2016-06-11 17:15:48 INFO  Main:180 - Last post id: 2016-06-11
+2016-06-11 17:15:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:15:48 INFO  Main:152 - Database creation: false
+2016-06-11 17:15:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:04 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:04 INFO  Main:151 - Database creation: false
+2016-06-11 17:28:04 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:04 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp21.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:28:04 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:04 INFO  Main:151 - Database creation: false
+2016-06-11 17:28:04 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:04 INFO  Main:151 - Database creation: false
+2016-06-11 17:28:04 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:04 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp21.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:28:04 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:28:04 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 17:28:04 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:28:04 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:28:04 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.175530%2C106.820596&message=Bawang%20Merah%20Kering%20dijual%20seharga%20Rp21.000%2C00%2Fkg%20di%20DKI%20JAKARTA%20%28-6.175530%2C%20106.820596%29%20dilaporkan%20oleh%20admin%20pada%20Jumat%2C%2003%20Jun%202016%2000%3A00&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - x-fb-trace-id: HJQM4/ZzAcd
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:28:05 GMT
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - X-FB-Debug: Kw0NpSBWhNecP0cDuFvtooAcgf4CaMxwmrymqLDQctnnQ1P9dJ2RVmO9VIH10PmeDuuoM/fQ6LJB0cujuqhf6A==
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:28:05 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591251734389889"}
+2016-06-11 17:28:05 INFO  Main:126 - 495631933951870_591251734389889
+2016-06-11 17:28:05 INFO  MainTest:81 - Posted to page: 495631933951870_591251734389889
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591251734389889?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - x-fb-trace-id: DwQfBKjyU5o
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:28:05 GMT
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - ETag: "2d8a6e7b4f2af2befedd3ce8e755f55747f0fba3"
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Content-Length: 215
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - X-FB-Debug: uIvDBIAsTrkcdEWVWILIrMSq4aY9jBfQPB5ZT6gyyY/7SAxeNwt+7tKl+mJYlylfxvktSBOsimgTWWnWqMFptA==
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:28:05 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:28:05 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T10:28:05+0000","id":"495631933951870_591251734389889","message":"Bawang Merah Kering dijual seharga Rp21.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00"}
+2016-06-11 17:28:05 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:05 DEBUG Main:163 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591251734389889', 97727, 'Bawang Merah Kering dijual seharga Rp21.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00', '2016-6-11 +7:0:0')
+2016-06-11 17:28:05 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:05 INFO  Main:151 - Database creation: false
+2016-06-11 17:28:05 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:05 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@15109fff
+2016-06-11 17:28:05 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:28:05 INFO  Service:61 - Connecting to database...
+2016-06-11 17:28:05 INFO  Main:151 - Database creation: false
+2016-06-11 17:28:05 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Main:151 - Database creation: false
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Main:151 - Database creation: false
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Main:151 - Database creation: false
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 ERROR MainTest:88 - Index: 0, Size: 0
+java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at id.kawalharga.facebook.MainTest.postTest(MainTest.java:79)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:119)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Main:151 - Database creation: false
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@5afa04c
+2016-06-11 17:33:27 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:33:27 INFO  Main:151 - Database creation: false
+2016-06-11 17:33:27 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:41 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:41 INFO  Main:151 - Database creation: false
+2016-06-11 17:34:41 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:41 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:34:41 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp20.000,00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:34:41 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:34:41 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:41 INFO  Main:151 - Database creation: false
+2016-06-11 17:34:41 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:41 INFO  Main:151 - Database creation: false
+2016-06-11 17:34:41 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:41 DEBUG Main:106 - retrieved: Gula Pasir dijual seharga Rp14.700,00/kg di KAB. PIDIE (-6.919291, 107.673891) dilaporkan oleh Christianty pada Kamis, 02 Jun 2016 00:00
+2016-06-11 17:34:41 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:34:41 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 17:34:41 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:34:41 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:34:41 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.919291%2C107.673891&message=Gula%20Pasir%20dijual%20seharga%20Rp14.700%2C00%2Fkg%20di%20KAB.%20PIDIE%20%28-6.919291%2C%20107.673891%29%20dilaporkan%20oleh%20Christianty%20pada%20Kamis%2C%2002%20Jun%202016%2000%3A00&access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - x-fb-trace-id: ECgnPaK3Ens
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:34:43 GMT
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - X-FB-Debug: mahZdR3E9o/gYMGFNLltW/eiDM/mGod6Nl4L17w//3gKCywy2PyQVcIkp+koGbkWBI+ZYK67N3y7h+aa5QVamw==
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:34:43 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591252564389806"}
+2016-06-11 17:34:43 INFO  Main:126 - 495631933951870_591252564389806
+2016-06-11 17:34:43 INFO  MainTest:81 - Posted to page: 495631933951870_591252564389806
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591252564389806?access_token=EAALd36gAN3gBAEwgcp6efuLShFDlGmrYbClc0dqgM5cGZCXVFZCSGInHnOBZAwnoDQ9OjiQCFVqCyKliW1jq2Lij0KwcsfYPpV6y7U8gggopotANwcmw71YS8nbIXQZCiwuBBgFQj0ZAnL1KudZAZCMusx4WvQKeF5liURWJzx5NwZDZD
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - x-fb-trace-id: GHFDcrHh9K+
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:34:43 GMT
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - ETag: "ebc85e28fecbb62df917dac18ab19af3da6f302a"
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Content-Length: 214
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - X-FB-Debug: f/IftvnBj6PZWJX3nXba+Ax0yenIn27IomMLqtBDXq+DDQeu4ThMgNrSmA87dF89hsFQm7t129mC70qKSD/bnw==
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:34:43 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:34:43 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T10:34:43+0000","id":"495631933951870_591252564389806","message":"Gula Pasir dijual seharga Rp14.700,00/kg di KAB. PIDIE (-6.919291, 107.673891) dilaporkan oleh Christianty pada Kamis, 02 Jun 2016 00:00"}
+2016-06-11 17:34:43 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:43 DEBUG Main:163 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591252564389806', 96453, 'Gula Pasir dijual seharga Rp14.700,00/kg di KAB. PIDIE (-6.919291, 107.673891) dilaporkan oleh Christianty pada Kamis, 02 Jun 2016 00:00', '2016-6-11 +7:0:0')
+2016-06-11 17:34:43 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:43 INFO  Main:151 - Database creation: false
+2016-06-11 17:34:43 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:43 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@2a70a3d8
+2016-06-11 17:34:43 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:34:43 INFO  Service:61 - Connecting to database...
+2016-06-11 17:34:43 INFO  Main:151 - Database creation: false
+2016-06-11 17:34:43 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:25 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:25 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:25 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:25 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:36:25 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp20.000,00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:36:25 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:36:25 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:25 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:25 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:25 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:26 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:26 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@6a024a67
+2016-06-11 17:36:26 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:36:26 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:26 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:26 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:36:54 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp20.000,00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:36:54 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@3a4d75d4
+2016-06-11 17:36:54 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:36:54 INFO  Main:151 - Database creation: false
+2016-06-11 17:36:54 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 INFO  Main:151 - Database creation: false
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:43:48 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp20.000,00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:43:48 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 INFO  Main:151 - Database creation: false
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 INFO  Main:151 - Database creation: false
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@6a024a67
+2016-06-11 17:43:48 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:43:48 INFO  Main:151 - Database creation: false
+2016-06-11 17:43:48 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:30 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:30 INFO  Main:151 - Database creation: false
+2016-06-11 17:44:30 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:30 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:44:30 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp20.000,00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:44:30 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:44:30 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:30 INFO  Main:151 - Database creation: false
+2016-06-11 17:44:30 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:30 INFO  Main:151 - Database creation: false
+2016-06-11 17:44:30 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:30 DEBUG Main:106 - retrieved: Gula Pasir dijual seharga Rp16.000,00/kg di KAB. PIDIE (-6.394153, 107.746425) dilaporkan oleh admin pada Kamis, 02 Jun 2016 00:00
+2016-06-11 17:44:31 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:44:31 DEBUG HttpClientImpl:67 - POST https://graph.facebook.com/me/feed
+2016-06-11 17:44:31 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:44:31 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:44:31 DEBUG HttpClientImpl:67 - Post Params: link=http%3A%2F%2Fmaps.google.com%2Fmaps%3Fq%3D-6.394153%2C107.746425&message=Gula%20Pasir%20dijual%20seharga%20Rp16.000%2C00%2Fkg%20di%20KAB.%20PIDIE%20%28-6.394153%2C%20107.746425%29%20dilaporkan%20oleh%20admin%20pada%20Kamis%2C%2002%20Jun%202016%2000%3A00&access_token=EAALd3tVl1YQBAJBOFcSRo5dcgYr46jkKhHTZBkMS5Wh4vBO7lCPSP2KSGoZCC7YhY15SIGFPA1LFTrrqpgxo42E8V1HXYP6G5ihd6efZAmVB9xkN8GUq0CpIeDDGqfmMSWsJxkZCYoZAp47YLZApMoqT6qKZCrdO8CoZA6pugVFiFgZDZD
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - x-fb-trace-id: CU/kh2iBPI4
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:44:32 GMT
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Content-Length: 40
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - X-FB-Debug: P2XoRh/II9v2Rgd34xAjV67qpRx9SUgG69rRVX8J7rCDA7TUcOTyx/6ldoAA9/hrsJmIEK1tYaL12wTVkFy+2g==
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:44:32 DEBUG HttpResponseImpl:67 - {"id":"495631933951870_591254824389580"}
+2016-06-11 17:44:32 INFO  Main:126 - 495631933951870_591254824389580
+2016-06-11 17:44:32 INFO  MainTest:81 - Posted to page: 495631933951870_591254824389580
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Request: 
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - GET https://graph.facebook.com/495631933951870_591254824389580?access_token=EAALd3tVl1YQBAJBOFcSRo5dcgYr46jkKhHTZBkMS5Wh4vBO7lCPSP2KSGoZCC7YhY15SIGFPA1LFTrrqpgxo42E8V1HXYP6G5ihd6efZAmVB9xkN8GUq0CpIeDDGqfmMSWsJxkZCYoZAp47YLZApMoqT6qKZCrdO8CoZA6pugVFiFgZDZD
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - User-Agent: facebook4j http://facebook4j.org/ /2.4.4
+2016-06-11 17:44:32 DEBUG HttpClientImpl:67 - Accept-Encoding: gzip
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Response: 
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - x-fb-trace-id: ESLoc1HbquZ
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - HTTP/1.1 200 OK
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Access-Control-Allow-Origin: *
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Connection: keep-alive
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - x-fb-rev: 2386692
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Pragma: no-cache
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Date: Sat, 11 Jun 2016 10:44:33 GMT
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Cache-Control: private, no-cache, no-store, must-revalidate
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - ETag: "be4708f17a704351817934c92014ce99049f3fb3"
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Content-Encoding: gzip
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Vary: Accept-Encoding
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Expires: Sat, 01 Jan 2000 00:00:00 GMT
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Content-Length: 209
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - X-FB-Debug: CD+YfuXYg1kA2pb0t4/XM/nyd44vXRRFZ/8IDg4etmDiqIWO7r6jie7ZMfgrJKnDGOj1SeY4XkP2Q0D8V3wZOw==
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - facebook-api-version: v2.5
+2016-06-11 17:44:33 DEBUG HttpClientImpl:67 - Content-Type: application/json; charset=UTF-8
+2016-06-11 17:44:33 DEBUG HttpResponseImpl:67 - {"created_time":"2016-06-11T10:44:32+0000","id":"495631933951870_591254824389580","message":"Gula Pasir dijual seharga Rp16.000,00/kg di KAB. PIDIE (-6.394153, 107.746425) dilaporkan oleh admin pada Kamis, 02 Jun 2016 00:00"}
+2016-06-11 17:44:33 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:33 DEBUG Main:163 - INSERT INTO post_fb (id, comodity_input_id, text, created_date) VALUES ('495631933951870_591254824389580', 96454, 'Gula Pasir dijual seharga Rp16.000,00/kg di KAB. PIDIE (-6.394153, 107.746425) dilaporkan oleh admin pada Kamis, 02 Jun 2016 00:00', '2016-6-11 +7:0:0')
+2016-06-11 17:44:33 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:33 INFO  Main:151 - Database creation: false
+2016-06-11 17:44:33 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:33 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@2a70a3d8
+2016-06-11 17:44:33 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:44:33 INFO  Service:61 - Connecting to database...
+2016-06-11 17:44:33 INFO  Main:151 - Database creation: false
+2016-06-11 17:44:33 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 INFO  Main:151 - Database creation: false
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:45:12 DEBUG Main:106 - retrieved: Bawang Merah Kering dijual seharga Rp20.000,00/kg di DKI JAKARTA (-6.240738, 106.872161) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:45:12 DEBUG Main:106 - retrieved: Beras Medium dijual seharga Rp15.000,00/kg di DKI JAKARTA (-6.175530, 106.820596) dilaporkan oleh admin pada Jumat, 03 Jun 2016 00:00
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 INFO  Main:151 - Database creation: false
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 INFO  Main:151 - Database creation: false
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 DEBUG Main:175 - org.postgresql.jdbc.PgStatement@3a4d75d4
+2016-06-11 17:45:12 INFO  Main:179 - Last post id: 2016-06-11
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
+2016-06-11 17:45:12 INFO  Main:151 - Database creation: false
+2016-06-11 17:45:12 INFO  Service:61 - Connecting to database...
