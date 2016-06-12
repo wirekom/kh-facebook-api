@@ -77,6 +77,7 @@ public class Main {
                     "join region r on i.region_id = r.id " +
                     "where i.date_created >= ? " +
                     "and i.id not in ( select comodity_input_id from post_fb ) " +
+                    "and i.price > 1000 " +
                     "order by id asc limit ?");
             pstmt.setDate(1, new java.sql.Date(date.getTime()));
             pstmt.setInt(2, limit);

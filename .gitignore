@@ -4,3 +4,4 @@ build/
 src/main/resources/facebook4j.properties
 src/test/resources/config.properties
 src/test/resources/facebook4j.properties
+*.log
