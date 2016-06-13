@@ -28,7 +28,7 @@ public class MainTest {
     }
 
     @Test
-    public void getAccessTokenTest() {
+    public void renewAccessTokenTest() {
         try {
             main.renewAccessToken();
             assert true;
@@ -106,6 +106,29 @@ public class MainTest {
         try {
             Date date = main.getLastPostedInputCreatedDate();
             assert date != null;
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            assert false;
+        }
+    }
+
+    @Test
+    public void getLastPostIdsTest() {
+        try {
+            List<String> ids = main.getLastPostIds(10);
+            assert ids != null;
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            assert false;
+        }
+    }
+
+    @Test
+    public void updatePostsStatusTest() {
+        try {
+            List<String> ids = main.getLastPostIds(10);
+            main.updatePostsStatus(ids);
+            assert true;
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
             assert false;

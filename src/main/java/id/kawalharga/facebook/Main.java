@@ -152,7 +152,7 @@ public class Main {
                 + "text VARCHAR(500) NOT NULL, "
                 + "likes INT DEFAULT 0, "
                 + "dislikes INT DEFAULT 0, "
-                + "neutral INT DEFAULT 0, "
+                + "neutrals INT DEFAULT 0, "
                 + "created_date DATE NOT NULL, " + "PRIMARY KEY (id) "
                 + ")";
         boolean result = statement.execute(createTableSQL);
@@ -188,20 +188,68 @@ public class Main {
             lastId = rs.getDate("created_date");
             logger.info("Last post id: " + lastId);
         }
+        if (rs != null) rs.close();
         if (statement != null) statement.close();
         this.getService().closeDatabaseConnection();
         return lastId;
     }
 
+    public void postSingleTodaysInput() throws Exception {
+        CommodityInput input = this.getInputToBePosted();
+        if (input != null) {
+            String postId = this.post(input);
+            Post post = this.getPost(postId);
+            this.insertPost(post, input);
+        }
+    }
+
+    public List<String> getLastPostIds(int limit) throws Exception {
+        List<String> postIds = new ArrayList<>();
+        Connection dbConnection = this.getService().connectToDatabase();
+        String selectSQL = "SELECT id FROM post_fb ORDER BY created_date DESC LIMIT " + limit;
+        Statement statement = dbConnection.createStatement();
+        ResultSet rs = statement.executeQuery(selectSQL);
+        while (rs.next()) {
+            postIds.add(rs.getString("id"));
+        }
+        if (rs != null) rs.close();
+        if (statement != null) statement.close();
+        this.getService().closeDatabaseConnection();
+        return postIds;
+    }
+
+    public void updatePostsStatus(List<String> postIds) throws Exception {
+        Connection dbConnection = this.getService().connectToDatabase();
+        String sql = "UPDATE post_fb SET likes = ?, dislikes = ?, neutrals = ? WHERE id = ?";
+        PreparedStatement statement = dbConnection.prepareStatement(sql);
+        for (String postId:postIds) {
+            try {
+                Post post = this.getPost(postId);
+                logger.debug("FB_ID " + postId + " likes: " + post.getLikes().getCount());
+                statement.setInt(1, post.getLikes().size()); // TODO include positive reactions
+                statement.setInt(2, 0); // TODO
+                statement.setInt(3, 0); // TODO
+                statement.setString(4, postId);
+                boolean success = statement.execute();
+            } catch (Exception e) {
+                // ignore failure
+                // e.printStackTrace();
+            }
+        }
+        if (statement != null) statement.close();
+        this.getService().closeDatabaseConnection();
+    }
 
     public static void main(String args[]) {
+        Main main = null;
         try {
-            Main main = new Main(args[0]);
-            CommodityInput input = main.getInputToBePosted();
-            if (input != null) {
-                String postId = main.post(input);
-                Post post = main.getPost(postId);
-                main.insertPost(post, input);
+            if (args.length > 1) {
+                main = new Main(args[1]);
+                List<String> postIds = main.getLastPostIds(10);
+                main.updatePostsStatus(postIds);
+            } else {
+                main = new Main(args[0]);
+                main.postSingleTodaysInput();
             }
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
