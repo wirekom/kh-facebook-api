@@ -1,6 +1,7 @@
 package id.kawalharga.facebook;
 
 import facebook4j.*;
+import facebook4j.auth.AccessToken;
 import id.kawalharga.database.Service;
 import id.kawalharga.model.*;
 import org.apache.log4j.Logger;
@@ -23,6 +24,7 @@ public class Main {
     public Main(String dbConfig) throws Exception {
         facebook = new FacebookFactory().getInstance();
         service = Service.getInstance(dbConfig);
+        this.renewAccessToken();
         this.createTableIfNotExist();
     }
 
@@ -32,6 +34,12 @@ public class Main {
 
     String getGoogleMapUrlString(Geolocation geolocation) {
         return String.format(GOOGLE_MAP_URL, geolocation.getLat(), geolocation.getLng());
+    }
+
+    public void renewAccessToken() throws Exception {
+        String shortLivedToken = facebook.getOAuthAccessToken().getToken();
+        AccessToken extendedToken = facebook.extendTokenExpiration(shortLivedToken);
+        facebook.setOAuthAccessToken(extendedToken);
     }
 
     public CommodityInput getInputToBePosted() throws Exception {
@@ -148,8 +156,9 @@ public class Main {
                 + "created_date DATE NOT NULL, " + "PRIMARY KEY (id) "
                 + ")";
         boolean result = statement.execute(createTableSQL);
-        if (result) logger.info(createTableSQL);
-        logger.info("Database creation: " + result);
+        if (result) {
+            logger.info(createTableSQL);
+        }
         this.getService().closeDatabaseConnection();
     }
 

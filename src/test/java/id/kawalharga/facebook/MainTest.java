@@ -28,6 +28,17 @@ public class MainTest {
     }
 
     @Test
+    public void getAccessTokenTest() {
+        try {
+            main.renewAccessToken();
+            assert true;
+        } catch (Exception e) {
+            logger.error(e.getMessage(), e);
+            assert false;
+        }
+    }
+
+    @Test
     public void urlTest() {
 
         try {
