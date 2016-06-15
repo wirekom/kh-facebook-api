@@ -1331,3 +1331,63 @@ FacebookException{statusCode=400, errorType='GraphMethodException', errorMessage
 2016-06-13 17:26:10 INFO  Main:189 - Last post id: 2016-06-12
 2016-06-13 17:28:12 INFO  Main:189 - Last post id: 2016-06-12
 2016-06-13 17:28:53 INFO  Main:189 - Last post id: 2016-06-12
+2016-06-15 08:30:28 INFO  Main:40 - Renewing access token
+2016-06-15 08:31:05 INFO  Main:223 - Updating posts status
+2016-06-15 08:31:07 INFO  Main:40 - Renewing access token
+2016-06-15 08:51:56 INFO  Main:49 - Renewing access token
+2016-06-15 08:51:57 INFO  Main:256 - Updating posts status
+2016-06-15 08:51:58 INFO  Main:49 - Renewing access token
+2016-06-15 08:51:59 INFO  Main:49 - Renewing access token
+2016-06-15 08:51:59 INFO  Main:49 - Renewing access token
+2016-06-15 08:51:59 INFO  Main:49 - Renewing access token
+2016-06-15 08:51:59 INFO  Main:73 - Renewing access token
+2016-06-15 08:52:00 INFO  Main:49 - Renewing access token
+2016-06-15 08:52:00 INFO  Main:223 - Last post id: 2016-06-12
+2016-06-15 08:52:00 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:16 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:16 INFO  Main:256 - Updating posts status
+2016-06-15 08:53:18 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:18 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:19 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:19 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:19 INFO  Main:73 - Renewing access token
+2016-06-15 08:53:19 INFO  Main:49 - Renewing access token
+2016-06-15 08:53:20 INFO  Main:223 - Last post id: 2016-06-12
+2016-06-15 08:53:20 INFO  Main:49 - Renewing access token
+2016-06-15 08:58:27 INFO  Main:51 - Renewing access token
+2016-06-15 08:58:31 INFO  Main:258 - Updating posts status
+2016-06-15 08:58:32 INFO  Main:51 - Renewing access token
+2016-06-15 08:58:33 INFO  Main:51 - Renewing access token
+2016-06-15 08:58:33 INFO  Main:51 - Renewing access token
+2016-06-15 08:58:33 INFO  Main:51 - Renewing access token
+2016-06-15 08:58:33 INFO  Main:75 - Renewing access token
+2016-06-15 08:58:34 INFO  Main:51 - Renewing access token
+2016-06-15 08:58:34 INFO  Main:225 - Last post id: 2016-06-12
+2016-06-15 08:58:34 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:34 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:35 INFO  Main:260 - Updating posts status
+2016-06-15 09:02:36 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:37 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:37 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:37 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:37 INFO  Main:75 - Renewing access token
+2016-06-15 09:02:38 INFO  Main:51 - Renewing access token
+2016-06-15 09:02:38 INFO  Main:225 - Last post id: 2016-06-12
+2016-06-15 09:02:38 INFO  Main:51 - Renewing access token
+2016-06-15 09:04:53 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:53 INFO  Main:53 - Renewing access token
+2016-06-15 09:04:54 INFO  Main:262 - Updating posts status
+2016-06-15 09:04:55 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:55 INFO  Main:53 - Renewing access token
+2016-06-15 09:04:55 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:55 INFO  Main:53 - Renewing access token
+2016-06-15 09:04:56 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:56 INFO  Main:53 - Renewing access token
+2016-06-15 09:04:56 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:56 INFO  Main:53 - Renewing access token
+2016-06-15 09:04:56 INFO  Main:77 - Renewing access token
+2016-06-15 09:04:56 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:56 INFO  Main:53 - Renewing access token
+2016-06-15 09:04:57 INFO  Main:227 - Last post id: 2016-06-12
+2016-06-15 09:04:57 INFO  Main:45 - Updated config file loaded from: /home/yohanesgultom/Workspace/kh-facebook-api/facebook4j.updated.properties
+2016-06-15 09:04:57 INFO  Main:53 - Renewing access token

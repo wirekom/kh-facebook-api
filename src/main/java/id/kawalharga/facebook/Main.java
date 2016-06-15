@@ -1,11 +1,17 @@
 package id.kawalharga.facebook;
 
-import facebook4j.*;
+import facebook4j.Facebook;
+import facebook4j.FacebookFactory;
+import facebook4j.Post;
 import facebook4j.auth.AccessToken;
 import id.kawalharga.database.Service;
-import id.kawalharga.model.*;
+import id.kawalharga.model.CommodityInput;
+import id.kawalharga.model.Geolocation;
 import org.apache.log4j.Logger;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -16,6 +22,8 @@ import java.util.*;
 public class Main {
 
     final static Logger logger = Logger.getLogger(Main.class);
+    final static String FACEBOOK4J_UPDATED = "facebook4j.updated.properties";
+    final static String FACEBOOK4J_OAUTH_TOKEN_FIELD = "oauth.accessToken";
     private static final String GOOGLE_MAP_URL = "http://maps.google.com/maps?q=%f,%f";
 
     private Facebook facebook;
@@ -24,7 +32,36 @@ public class Main {
     public Main(String dbConfig) throws Exception {
         facebook = new FacebookFactory().getInstance();
         service = Service.getInstance(dbConfig);
-        this.renewAccessToken();
+
+        // create updated config file if not exist
+        File facebook4jConfig = new File(FACEBOOK4J_UPDATED);
+        if(!facebook4jConfig.exists()) {
+            facebook4jConfig.createNewFile();
+            logger.info("New config file created at: " + facebook4jConfig.getAbsolutePath());
+        }
+
+        // load properties
+        FileInputStream input = new FileInputStream(facebook4jConfig);
+        logger.info("Updated config file loaded from: " + facebook4jConfig.getAbsolutePath());
+        Properties facebook4jProp = new Properties();
+        facebook4jProp.load(input);
+        input.close();
+        if (facebook4jProp.getProperty(FACEBOOK4J_OAUTH_TOKEN_FIELD) != null) {
+            facebook.setOAuthAccessToken(new AccessToken(facebook4jProp.getProperty(FACEBOOK4J_OAUTH_TOKEN_FIELD), null));
+        }
+
+        logger.info("Renewing access token");
+        String shortLivedToken = facebook.getOAuthAccessToken().getToken();
+        AccessToken extendedToken = facebook.extendTokenExpiration(shortLivedToken);
+        facebook.setOAuthAccessToken(extendedToken);
+
+        // save extended token
+        FileOutputStream out = new FileOutputStream(facebook4jConfig);
+        facebook4jProp.setProperty(FACEBOOK4J_OAUTH_TOKEN_FIELD, extendedToken.getToken());
+        facebook4jProp.store(out, null);
+        out.close();
+
+
         this.createTableIfNotExist();
     }
 
@@ -37,6 +74,7 @@ public class Main {
     }
 
     public void renewAccessToken() throws Exception {
+        logger.info("Renewing access token");
         String shortLivedToken = facebook.getOAuthAccessToken().getToken();
         AccessToken extendedToken = facebook.extendTokenExpiration(shortLivedToken);
         facebook.setOAuthAccessToken(extendedToken);
@@ -132,7 +170,7 @@ public class Main {
         try {
             String message = commodityInput.toString();
             id = facebook.postLink(googleMapUrl, message);
-            logger.info(id);
+            logger.info("Posted: " + id);
         } catch (Exception e) {
             throw e;
         }
@@ -200,6 +238,8 @@ public class Main {
             String postId = this.post(input);
             Post post = this.getPost(postId);
             this.insertPost(post, input);
+        } else {
+            logger.info("Nothing to be posted yet");
         }
     }
 
@@ -219,6 +259,7 @@ public class Main {
     }
 
     public void updatePostsStatus(List<String> postIds) throws Exception {
+        logger.info("Updating posts status");
         Connection dbConnection = this.getService().connectToDatabase();
         String sql = "UPDATE post_fb SET likes = ?, dislikes = ?, neutrals = ? WHERE id = ?";
         PreparedStatement statement = dbConnection.prepareStatement(sql);
