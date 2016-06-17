@@ -124,7 +124,7 @@ public class Main {
                     "where i.date_created >= ? " +
                     "and i.id not in ( select comodity_input_id from post_fb ) " +
                     "and i.price > 1000 " +
-                    "order by id asc limit ?");
+                    "order by RANDOM() asc limit ?");
             pstmt.setDate(1, new java.sql.Date(date.getTime()));
             pstmt.setInt(2, limit);
             rs = pstmt.executeQuery();
